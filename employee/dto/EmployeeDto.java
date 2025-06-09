@@ -1,0 +1,21 @@
+package com.project.employee.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+
+// this class is created to transfer data from client to server
+
+public class EmployeeDto {
+    private Long id;
+    private String firstName;
+    private String lastName;
+    private String email;
+
+}
